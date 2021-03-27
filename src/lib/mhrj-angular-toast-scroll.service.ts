@@ -6,11 +6,11 @@ import { ToastConfig } from '../assets/toast-config';
 } )
 export class ToastScrollService
 {
-  message = '';
-  data: ToastConfig;
-  hasChild = false;
-  child: HTMLElement = null;
-  childExitClass: string = null;
+  private message = '';
+  private data: ToastConfig;
+  private hasChild = false;
+  private child: HTMLElement = null;
+  private childExitClass: string = null;
 
   private renderer: Renderer2;
   constructor( private rendererFactory: RendererFactory2 )

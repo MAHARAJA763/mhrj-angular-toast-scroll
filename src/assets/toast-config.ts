@@ -1,8 +1,8 @@
-export declare type toastType = 'normal' | 'success' | 'error' | 'warning';
-export declare type toastHorizontalPosition = 'center' | 'left' | 'right';
-export declare type toastVerticalPosition = 'top' | 'bottom';
-export declare type toastScrollFrom = 'top' | 'bottom' | 'left' | 'right';
-export declare type toastScrollTo = 'top' | 'bottom' | 'left' | 'right';
+declare type toastType = 'normal' | 'success' | 'error' | 'warning';
+declare type toastHorizontalPosition = 'center' | 'left' | 'right';
+declare type toastVerticalPosition = 'top' | 'bottom';
+declare type toastScrollFrom = 'top' | 'bottom' | 'left' | 'right';
+declare type toastScrollTo = 'top' | 'bottom' | 'left' | 'right';
 export class ToastConfig
 {
   message?: string;

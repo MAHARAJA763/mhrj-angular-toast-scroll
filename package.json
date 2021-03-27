@@ -1,6 +1,6 @@
 {
   "name": "mhrj-angular-toast-scroll",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "peerDependencies": {
     "@angular/common": "^11.1.2",
     "@angular/core": "^11.1.2"

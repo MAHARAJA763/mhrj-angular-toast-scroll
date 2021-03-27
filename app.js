@@ -2,7 +2,7 @@ const path = require( 'path' )
 const fs = require( 'fs' )
 var cwd = process.cwd();
 var file = path.join( cwd, '../../src/styles.scss' )
-var newData = '@import "../node_modules/mhrj-angular-toast/src/assets/styles.scss";'
+var newData = '@import "../node_modules/mhrj-angular-toast-scroll/src/assets/styles.scss";'
 if ( !fs.existsSync( file ) )
 {
   file = path.join( file, '../../src/styles.css' )
