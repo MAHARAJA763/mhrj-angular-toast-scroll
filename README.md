@@ -4,7 +4,11 @@ This package is for toast service in angular
 
 ## How to use
 
-Just inject `MhrjToastService` in constructor of any component.
+import `ToastScrollService` from `mhrj-angular-toast-scroll`
+
+> import {ToastScrollService} from 'mhrj-angular-toast-scroll'
+
+inject `ToastScrollService` in constructor of any component.
 
 Like below :
 
