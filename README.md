@@ -1,5 +1,7 @@
 # MhrjAngularToastScroll
 
+> npm i mhrj-angular-toast-scroll --save
+
 This package is for toast service in angular
 
 ## How to use
